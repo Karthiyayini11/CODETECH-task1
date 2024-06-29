@@ -1,0 +1,17 @@
+//A strong password is defined as one that is at least eight characters long, contains both uppercase and lowercase characters, and has at least one digit. 
+You may need to test the string against multiple regex patterns to validate its strength.
+Here's my code ...//
+
+import re
+regExLower=re.compile(r'[a-z]+')
+regeExUpper=re.compile(r'[A-Z]+')
+regExNum=re.compile(r'[0-9]+')
+print('Enter a password to check it\'s strength')
+test=str(input())
+lower=regExLower.findall(test)
+upper=regeExUpper.findall(test)
+num=regExNum.findall(test)
+if len(test)>=8 and lower!='' and upper!='' and num!='':
+    print(test+' is a strong password')
+else:
+    print(test+' is not a strong password')
