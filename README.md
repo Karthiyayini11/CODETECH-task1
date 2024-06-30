@@ -39,6 +39,7 @@ Steps to Implement:
    -Write a function that takes a password as input and checks these conditions.
    -Return a message indicating the strength level of the password.
 3. Implementation in Python program
+
  Overview of the project:
 ![Screenshot 2024-06-29 222006](https://github.com/Karthiyayini11/CODETECH-task1/assets/98526194/d0020897-d826-427a-b4e1-535eaf2316fa)
 
